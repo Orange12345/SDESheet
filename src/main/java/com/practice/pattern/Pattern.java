@@ -74,19 +74,7 @@ public class Pattern {
 		System.out.println("......Calling TwentyOneth Pattern....... ");
 		System.out.println();
 		calledtwentyonethpattern(n);
-		
-		System.out.println("......Calling TwentyTwoeth Pattern....... ");
-		System.out.println();
-		calledtwentytwoethpattern(n);
-	}
-	private static void calledtwentytwoethpattern(int n) {
-		for(int i=1;i<n*2;i++)
-		{
-			for(int j=1;j<n*2;j++)
-			System.out.print(n);
-		}
-		
-	}
+	}	
 	private static void calledtwentyonethpattern(int n) {
 		for(int i=n;i>=1;i--)
 		{
